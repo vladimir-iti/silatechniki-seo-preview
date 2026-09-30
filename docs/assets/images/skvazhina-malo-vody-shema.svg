@@ -1,0 +1,86 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Разрез скважины: четыре места, где теряется дебит — насос, водоносный пласт, фильтр с прифильтровой зоной, отстойник — и что из этого восстановимо" font-family="'Golos Text', 'Helvetica Neue', Arial, sans-serif">
+  <rect width="1200" height="800" fill="#F1F0EC"/>
+
+  <text x="48" y="84" font-size="36" font-weight="700" fill="#16181B">Где теряется дебит скважины</text>
+  <text x="48" y="122" font-size="22" fill="#5A646E">Четыре места — от пласта до насоса. Условно, не в масштабе</text>
+
+  <!-- грунты -->
+  <rect x="48" y="200" width="492" height="36" fill="#7A5A3A"/>
+  <rect x="48" y="236" width="492" height="204" fill="#B98C62"/>
+  <rect x="48" y="440" width="492" height="220" fill="#E3CF9E"/>
+  <g fill="#C9B89A">
+    <circle cx="80" cy="470" r="5"/><circle cx="130" cy="505" r="4"/><circle cx="95" cy="560" r="5"/>
+    <circle cx="160" cy="600" r="4"/><circle cx="70" cy="630" r="5"/><circle cx="190" cy="470" r="4"/>
+    <circle cx="420" cy="500" r="5"/><circle cx="505" cy="540" r="4"/><circle cx="455" cy="610" r="5"/>
+    <circle cx="395" cy="640" r="4"/><circle cx="510" cy="630" r="5"/><circle cx="170" cy="535" r="4"/>
+  </g>
+  <rect x="48" y="660" width="492" height="92" fill="#B98C62"/>
+
+  <!-- прифильтровая зона -->
+  <rect x="222" y="480" width="116" height="160" fill="#C9B89A"/>
+  <g fill="#7E5900">
+    <circle cx="234" cy="496" r="4"/><circle cx="242" cy="530" r="3"/><circle cx="232" cy="566" r="4"/>
+    <circle cx="243" cy="600" r="3"/><circle cx="233" cy="626" r="4"/>
+    <circle cx="326" cy="500" r="4"/><circle cx="318" cy="536" r="3"/><circle cx="328" cy="570" r="4"/>
+    <circle cx="317" cy="604" r="3"/><circle cx="327" cy="628" r="4"/>
+  </g>
+
+  <!-- вода и осадок в стволе -->
+  <rect x="256" y="290" width="48" height="410" fill="#CFE3EE"/>
+  <line x1="256" y1="290" x2="304" y2="290" stroke="#3B7EA1" stroke-width="3"/>
+  <rect x="256" y="696" width="48" height="44" fill="#7A5A3A"/>
+  <g fill="#B98C62"><circle cx="266" cy="708" r="3"/><circle cx="284" cy="720" r="3"/><circle cx="296" cy="706" r="3"/><circle cx="272" cy="730" r="3"/></g>
+
+  <!-- обсадная колонна -->
+  <rect x="250" y="178" width="6" height="302" fill="#8C949C"/>
+  <rect x="304" y="178" width="6" height="302" fill="#8C949C"/>
+  <line x1="253" y1="480" x2="253" y2="640" stroke="#8C949C" stroke-width="6" stroke-dasharray="10 8"/>
+  <line x1="307" y1="480" x2="307" y2="640" stroke="#8C949C" stroke-width="6" stroke-dasharray="10 8"/>
+  <rect x="250" y="640" width="6" height="100" fill="#8C949C"/>
+  <rect x="304" y="640" width="6" height="100" fill="#8C949C"/>
+  <rect x="250" y="740" width="60" height="6" fill="#8C949C"/>
+  <rect x="238" y="170" width="84" height="10" fill="#8C949C"/>
+
+  <!-- насос и водоподъёмная труба -->
+  <line x1="280" y1="180" x2="280" y2="352" stroke="#3E6E8E" stroke-width="6"/>
+  <rect x="266" y="350" width="28" height="74" rx="4" fill="#5A646E"/>
+
+  <!-- выноски -->
+  <g stroke="#5A646E" stroke-width="2" fill="none">
+    <line x1="600" y1="250" x2="298" y2="382"/>
+    <line x1="600" y1="390" x2="480" y2="472"/>
+    <line x1="600" y1="530" x2="340" y2="562"/>
+    <line x1="600" y1="670" x2="306" y2="716"/>
+  </g>
+  <g fill="#16181B">
+    <circle cx="298" cy="382" r="5"/><circle cx="480" cy="472" r="5"/><circle cx="340" cy="562" r="5"/><circle cx="306" cy="716" r="5"/>
+  </g>
+
+  <!-- карточки -->
+  <g font-size="22">
+    <rect x="600" y="189" width="552" height="122" rx="10" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+    <text x="624" y="226" font-size="24" font-weight="700" fill="#16181B">Насос — ложный след</text>
+    <text x="624" y="260" fill="#5A646E">Износ или подбор без знания дебита</text>
+    <rect x="624" y="276" width="14" height="14" fill="#2C7350"/>
+    <text x="648" y="290" fill="#2C7350">Ремонт или замена насоса</text>
+
+    <rect x="600" y="329" width="552" height="122" rx="10" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+    <text x="624" y="366" font-size="24" font-weight="700" fill="#16181B">Водоносный пласт</text>
+    <rect x="624" y="386" width="14" height="14" fill="#2C7350"/>
+    <text x="648" y="400" fill="#2C7350">Сезонное снижение — вернётся само</text>
+    <rect x="624" y="416" width="14" height="14" fill="#A93F26"/>
+    <text x="648" y="430" fill="#A93F26">Угледобыча рядом — прочистка не поможет</text>
+
+    <rect x="600" y="469" width="552" height="122" rx="10" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+    <text x="624" y="506" font-size="24" font-weight="700" fill="#16181B">Фильтр и прифильтровая зона</text>
+    <text x="624" y="540" fill="#5A646E">Кольматация: железо, марганец, бактерии</text>
+    <rect x="624" y="556" width="14" height="14" fill="#2C7350"/>
+    <text x="648" y="570" fill="#2C7350">Обычно поддаётся прочистке</text>
+
+    <rect x="600" y="609" width="552" height="122" rx="10" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+    <text x="624" y="646" font-size="24" font-weight="700" fill="#16181B">Отстойник и ствол</text>
+    <text x="624" y="680" fill="#5A646E">Заиливание: осадок поднимается к фильтру</text>
+    <rect x="624" y="696" width="14" height="14" fill="#2C7350"/>
+    <text x="648" y="710" fill="#2C7350">Обычно поддаётся прочистке</text>
+  </g>
+</svg>

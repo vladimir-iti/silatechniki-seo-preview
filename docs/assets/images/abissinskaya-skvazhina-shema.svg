@@ -1,0 +1,97 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Разрез: абиссинская скважина с поверхностным насосом и обычная скважина с погружным насосом, пределы всасывания 7–8 м и 10,33 м" font-family="'Golos Text', 'Helvetica Neue', Arial, sans-serif">
+  <rect width="1200" height="800" fill="#F1F0EC"/>
+  <defs>
+    <pattern id="sand" width="28" height="28" patternUnits="userSpaceOnUse">
+      <rect width="28" height="28" fill="#E3CF9E"/>
+      <circle cx="6" cy="7" r="2.6" fill="#C9B89A"/>
+      <circle cx="20" cy="20" r="3" fill="#C9B89A"/>
+    </pattern>
+    <pattern id="filter" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#8C949C"/>
+      <rect x="2" y="3" width="6" height="3" fill="#FFFFFF"/>
+    </pattern>
+    <clipPath id="clipL"><rect x="50" y="162" width="488" height="588" rx="10"/></clipPath>
+    <clipPath id="clipR"><rect x="582" y="162" width="568" height="588" rx="10"/></clipPath>
+  </defs>
+
+  <text x="48" y="86" font-size="36" font-weight="700" fill="#16181B">Абиссинская скважина и обычная: предел всасывания</text>
+  <text x="48" y="124" font-size="23" fill="#5A646E">Поверхностный насос поднимает воду разрежением, и у этого есть физический потолок</text>
+
+  <!-- LEFT PANEL -->
+  <rect x="48" y="160" width="492" height="592" rx="12" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <g clip-path="url(#clipL)">
+    <rect x="48" y="262" width="492" height="22" fill="#7A5A3A"/>
+    <rect x="48" y="284" width="492" height="468" fill="url(#sand)"/>
+    <rect x="48" y="392" width="492" height="360" fill="#3B7EA1" opacity="0.28"/>
+    <line x1="48" y1="392" x2="540" y2="392" stroke="#3B7EA1" stroke-width="4"/>
+  </g>
+  <text x="72" y="198" font-size="26" font-weight="700" fill="#16181B">Абиссинская скважина</text>
+
+  <!-- RIGHT PANEL -->
+  <rect x="580" y="160" width="572" height="592" rx="12" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <g clip-path="url(#clipR)">
+    <rect x="580" y="262" width="572" height="22" fill="#7A5A3A"/>
+    <rect x="580" y="284" width="572" height="100" fill="#B98C62"/>
+    <rect x="580" y="384" width="572" height="368" fill="#9A948A"/>
+    <line x1="580" y1="384" x2="1152" y2="384" stroke="#5A646E" stroke-width="2"/>
+  </g>
+  <text x="604" y="198" font-size="26" font-weight="700" fill="#16181B">Обычная буровая скважина</text>
+
+  <!-- suction limits (from pump level = ground 262, 30 px per metre) -->
+  <rect x="50" y="472" width="488" height="30" fill="#F2B01E" opacity="0.35"/>
+  <rect x="582" y="472" width="568" height="30" fill="#F2B01E" opacity="0.45"/>
+  <line x1="48" y1="472" x2="1152" y2="472" stroke="#7E5900" stroke-width="3" stroke-dasharray="12 8"/>
+  <line x1="48" y1="502" x2="1152" y2="502" stroke="#7E5900" stroke-width="3" stroke-dasharray="12 8"/>
+  <line x1="48" y1="572" x2="1152" y2="572" stroke="#A93F26" stroke-width="3" stroke-dasharray="12 8"/>
+
+  <!-- abyssinian needle + surface pump -->
+  <rect x="143" y="236" width="14" height="204" fill="#8C949C" stroke="#5A646E" stroke-width="2"/>
+  <rect x="143" y="440" width="14" height="38" fill="url(#filter)" stroke="#5A646E" stroke-width="2"/>
+  <path d="M143 478 L157 478 L150 498 Z" fill="#5A646E"/>
+  <path d="M150 238 V230 H184" fill="none" stroke="#5A646E" stroke-width="6"/>
+  <rect x="184" y="218" width="68" height="38" rx="6" fill="#3E6E8E" stroke="#16181B" stroke-width="2"/>
+  <circle cx="206" cy="237" r="11" fill="#CFE3EE"/>
+  <rect x="176" y="256" width="84" height="6" fill="#5A646E"/>
+  <text x="268" y="246" font-size="24" fill="#16181B">Поверхностный насос</text>
+
+  <line x1="159" y1="330" x2="190" y2="330" stroke="#5A646E" stroke-width="2"/>
+  <rect x="190" y="298" width="336" height="76" rx="6" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <text x="204" y="329" font-size="24" fill="#16181B">Труба 1–1,5 дюйма</text>
+  <text x="204" y="359" font-size="24" fill="#16181B">с наконечником-фильтром</text>
+
+  <rect x="300" y="406" width="226" height="44" rx="6" fill="#FFFFFF" stroke="#3B7EA1" stroke-width="2"/>
+  <text x="314" y="436" font-size="24" fill="#3B7EA1">Уровень воды</text>
+
+  <rect x="64" y="596" width="462" height="144" rx="8" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <text x="80" y="628" font-size="23" font-weight="700" fill="#16181B">Расчёт: H = P / (ρ × g)</text>
+  <text x="80" y="660" font-size="22" fill="#16181B">101 325 / (1000 × 9,81) ≈ 10,33 м</text>
+  <text x="80" y="694" font-size="22" fill="#7E5900">На практике — 7–8 м от насоса</text>
+  <text x="80" y="724" font-size="22" fill="#7E5900">до динамического уровня воды</text>
+
+  <!-- borehole with submersible pump -->
+  <rect x="664" y="234" width="36" height="506" fill="#8C949C" stroke="#5A646E" stroke-width="2"/>
+  <rect x="668" y="640" width="28" height="98" fill="#CFE3EE"/>
+  <line x1="668" y1="640" x2="696" y2="640" stroke="#3B7EA1" stroke-width="4"/>
+  <line x1="682" y1="234" x2="682" y2="686" stroke="#3E6E8E" stroke-width="4"/>
+  <rect x="672" y="686" width="20" height="46" rx="4" fill="#3E6E8E" stroke="#16181B" stroke-width="2"/>
+  <rect x="656" y="226" width="52" height="10" fill="#5A646E"/>
+
+  <!-- right labels -->
+  <line x1="702" y1="322" x2="730" y2="322" stroke="#5A646E" stroke-width="2"/>
+  <rect x="730" y="300" width="236" height="44" rx="6" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <text x="744" y="330" font-size="23" fill="#16181B">Обсадная колонна</text>
+
+  <rect x="730" y="464" width="410" height="46" rx="6" fill="#FFFFFF" stroke="#7E5900" stroke-width="2"/>
+  <text x="744" y="495" font-size="22" font-weight="700" fill="#7E5900">7–8 м — практический ориентир</text>
+  <rect x="730" y="550" width="410" height="44" rx="6" fill="#FFFFFF" stroke="#A93F26" stroke-width="2"/>
+  <text x="744" y="580" font-size="22" font-weight="700" fill="#A93F26">10,33 м — теоретический предел</text>
+
+  <line x1="700" y1="640" x2="730" y2="640" stroke="#5A646E" stroke-width="2"/>
+  <rect x="730" y="608" width="410" height="74" rx="6" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <text x="744" y="638" font-size="22" fill="#16181B">Вода глубже предела —</text>
+  <text x="744" y="668" font-size="22" fill="#16181B">поверхностный насос не поднимет</text>
+
+  <line x1="694" y1="710" x2="730" y2="710" stroke="#5A646E" stroke-width="2"/>
+  <rect x="730" y="692" width="410" height="44" rx="6" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <text x="744" y="722" font-size="23" fill="#16181B">Погружной насос в колонне</text>
+</svg>

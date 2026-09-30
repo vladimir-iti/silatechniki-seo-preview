@@ -1,0 +1,54 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Расчёт потребности дачи в воде: быт 500–640 литров в сутки, полив 300–1500, итого 800–2140; что из обвязки можно отложить и на чём нельзя экономить" font-family="'Golos Text', 'Helvetica Neue', Arial, sans-serif">
+  <rect width="1200" height="800" fill="#F1F0EC"/>
+  <text x="48" y="84" font-size="36" font-weight="700" fill="#16181B">Скважина на даче: сколько воды и что отложить</text>
+  <text x="48" y="122" font-size="22" fill="#5A646E">Пример: 4 человека, водопровод без ванны, 100 м² овощей. Нормы — СП 53.13330.2019, п. 8.4</text>
+
+  <rect x="48" y="150" width="552" height="602" rx="10" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <text x="72" y="192" font-size="26" font-weight="700" fill="#16181B">Потребность в пик сезона</text>
+
+  <text x="72" y="240" font-size="22" fill="#16181B"><tspan font-weight="700">Быт:</tspan> 4 чел. × 125–160 л/сут</text>
+  <rect x="72" y="254" width="139.6" height="34" rx="4" fill="#CFE3EE" stroke="#3B7EA1" stroke-width="2"/>
+  <rect x="72" y="254" width="109.1" height="34" rx="4" fill="#3B7EA1"/>
+  <text x="226" y="279" font-size="24" font-weight="700" fill="#16181B">500–640 л</text>
+
+  <text x="72" y="338" font-size="22" fill="#16181B"><tspan font-weight="700">Полив:</tspan> 100 м² × 3–15 л/м² в сутки</text>
+  <rect x="72" y="352" width="327.3" height="34" rx="4" fill="#DCEBE2" stroke="#2C7350" stroke-width="2"/>
+  <rect x="72" y="352" width="65.5" height="34" rx="4" fill="#2C7350"/>
+  <text x="413" y="377" font-size="24" font-weight="700" fill="#16181B">300–1500 л</text>
+
+  <text x="72" y="436" font-size="22" font-weight="700" fill="#16181B">Итого в сутки</text>
+  <rect x="72" y="450" width="466.9" height="34" rx="4" fill="#FAEBC8" stroke="#7E5900" stroke-width="2"/>
+  <rect x="72" y="450" width="174.5" height="34" rx="4" fill="#7E5900"/>
+  <text x="72" y="530" font-size="30" font-weight="700" fill="#7E5900">800–2140 л/сут</text>
+
+  <text x="72" y="572" font-size="22" fill="#5A646E">Тёмная часть — нижняя граница нормы,</text>
+  <text x="72" y="600" font-size="22" fill="#5A646E">светлая — до верхней.</text>
+  <line x1="72" y1="628" x2="576" y2="628" stroke="#DCDAD3" stroke-width="2"/>
+  <text x="72" y="664" font-size="22" fill="#16181B">Разброс даёт полив. Для сравнения: дом</text>
+  <text x="72" y="692" font-size="22" fill="#16181B">без огорода — 560–720 л/сут, то есть с поливом</text>
+  <text x="72" y="720" font-size="22" fill="#16181B">дача может нагрузить скважину сильнее</text>
+
+  <!-- отложить -->
+  <rect x="624" y="150" width="528" height="216" rx="10" fill="#DCEBE2" stroke="#2C7350" stroke-width="2"/>
+  <text x="648" y="192" font-size="26" font-weight="700" fill="#2C7350">Можно отложить</text>
+  <g font-size="22" fill="#16181B">
+    <circle cx="656" cy="227" r="5" fill="#2C7350"/><text x="672" y="234">расширенную автоматику управления</text>
+    <circle cx="656" cy="265" r="5" fill="#2C7350"/><text x="672" y="272">декоративное оформление узла ввода</text>
+    <circle cx="656" cy="303" r="5" fill="#2C7350"/><text x="672" y="310">часть запаса мощности насоса —</text>
+    <text x="672" y="338">если пик потребления умеренный</text>
+  </g>
+
+  <!-- не экономить -->
+  <rect x="624" y="390" width="528" height="362" rx="10" fill="#F3DDD6" stroke="#A93F26" stroke-width="2"/>
+  <text x="648" y="434" font-size="26" font-weight="700" fill="#A93F26">На этом не экономить</text>
+  <g font-size="22" fill="#16181B">
+    <circle cx="656" cy="475" r="5" fill="#A93F26"/><text x="672" y="482">герметичность оголовка</text>
+    <circle cx="656" cy="513" r="5" fill="#A93F26"/><text x="672" y="520">защита ствола от поверхностного</text>
+    <text x="672" y="548">загрязнения</text>
+    <circle cx="656" cy="579" r="5" fill="#A93F26"/><text x="672" y="586">обсадка там, где порода требует</text>
+    <text x="672" y="614">серьёзной защиты ствола</text>
+    <circle cx="656" cy="645" r="5" fill="#A93F26"/><text x="672" y="652">расчёт потребности с поливом:</text>
+    <text x="672" y="680">заниженный расчёт — это новое</text>
+    <text x="672" y="708">бурение на другой горизонт</text>
+  </g>
+</svg>

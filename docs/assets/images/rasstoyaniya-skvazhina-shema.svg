@@ -1,0 +1,67 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="План участка: скважина не менее чем в 50 метрах выше по потоку грунтовых вод от септика, зона 20 метров вокруг скважины, где нельзя мыть машины и стирать, и норма 8 метров, которая относится к колодцу" font-family="'Golos Text', 'Helvetica Neue', Arial, sans-serif">
+  <rect width="1200" height="800" fill="#F1F0EC"/>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#5A646E"/>
+    </marker>
+    <marker id="al" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M10 0 L0 5 L10 10 z" fill="#5A646E"/>
+    </marker>
+  </defs>
+  <text x="48" y="84" font-size="36" font-weight="700" fill="#16181B">Расстояния у скважины: что значит каждая цифра</text>
+  <text x="48" y="122" font-size="22" fill="#5A646E">План участка сверху, условно, не в масштабе. СанПиН 2.1.3684-21 и СП 53.13330.2019</text>
+
+  <!-- план -->
+  <rect x="48" y="150" width="712" height="602" rx="10" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <!-- поток грунтовых вод -->
+  <path d="M72 180 H690 V166 L736 204 L690 242 V228 H72 Z" fill="#CFE3EE"/>
+  <text x="96" y="213" font-size="24" font-weight="700" fill="#3B7EA1">Направление потока грунтовых вод</text>
+
+  <!-- зона 20 м -->
+  <circle cx="230" cy="448" r="160" fill="#F3DDD6" fill-opacity="0.55" stroke="#A93F26" stroke-width="3" stroke-dasharray="12 9"/>
+  <line x1="230" y1="448" x2="117" y2="335" stroke="#A93F26" stroke-width="2"/>
+  <text x="138" y="386" font-size="24" font-weight="700" fill="#A93F26" text-anchor="middle" transform="rotate(45 138 386)">20 м</text>
+
+  <!-- скважина -->
+  <circle cx="230" cy="448" r="17" fill="#8C949C" stroke="#16181B" stroke-width="3"/>
+  <circle cx="230" cy="448" r="6" fill="#16181B"/>
+  <text x="230" y="498" font-size="24" font-weight="700" fill="#16181B" text-anchor="middle">Скважина</text>
+  <text x="230" y="526" font-size="22" fill="#5A646E" text-anchor="middle">выше по потоку</text>
+
+  <!-- септик -->
+  <rect x="624" y="418" width="64" height="60" rx="6" fill="#B98C62" stroke="#7A5A3A" stroke-width="3"/>
+  <text x="656" y="516" font-size="24" font-weight="700" fill="#16181B" text-anchor="middle">Септик,</text>
+  <text x="656" y="544" font-size="24" font-weight="700" fill="#16181B" text-anchor="middle">выгребная яма</text>
+
+  <!-- 50 м -->
+  <line x1="252" y1="448" x2="618" y2="448" stroke="#5A646E" stroke-width="3" marker-start="url(#al)" marker-end="url(#ar)"/>
+  <rect x="408" y="408" width="200" height="30" fill="#FFFFFF"/>
+  <text x="508" y="432" font-size="26" font-weight="700" fill="#16181B" text-anchor="middle">не менее 50 м</text>
+  <text x="508" y="480" font-size="22" fill="#5A646E" text-anchor="middle">СанПиН, п. 85</text>
+
+  <!-- подпись зоны -->
+  <text x="72" y="652" font-size="24" font-weight="700" fill="#A93F26">20 м — зона запрета, а не расстояние для планировки:</text>
+  <text x="72" y="684" font-size="22" fill="#16181B">ближе 20 м от скважины нельзя мыть машины, стирать</text>
+  <text x="72" y="712" font-size="22" fill="#16181B">и полоскать бельё (СанПиН, п. 88)</text>
+
+  <!-- 8 м -->
+  <rect x="784" y="150" width="368" height="300" rx="10" fill="#F3DDD6" stroke="#A93F26" stroke-width="2"/>
+  <text x="808" y="212" font-size="48" font-weight="700" fill="#A93F26">8 м</text>
+  <text x="900" y="210" font-size="24" font-weight="700" fill="#A93F26">— не про скважину</text>
+  <text x="808" y="256" font-size="22" fill="#16181B">Это норма для колодца: от него</text>
+  <text x="808" y="286" font-size="22" fill="#16181B">до надворной уборной и</text>
+  <text x="808" y="316" font-size="22" fill="#16181B">компостного устройства.</text>
+  <text x="808" y="360" font-size="22" fill="#16181B">Для скважины — другое</text>
+  <text x="808" y="390" font-size="22" fill="#16181B">правило, цифра больше.</text>
+  <text x="808" y="430" font-size="22" fill="#5A646E">СП 53.13330.2019, п. 6.8</text>
+
+  <!-- п. 86 -->
+  <rect x="784" y="474" width="368" height="278" rx="10" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <text x="808" y="518" font-size="24" font-weight="700" fill="#3B7EA1">«Выше по потоку» —</text>
+  <text x="808" y="548" font-size="24" font-weight="700" fill="#3B7EA1">не на глаз</text>
+  <text x="808" y="592" font-size="22" fill="#16181B">50 м — не радиус вокруг</text>
+  <text x="808" y="622" font-size="22" fill="#16181B">септика. Направление потока</text>
+  <text x="808" y="652" font-size="22" fill="#16181B">берут из гидрогеологических</text>
+  <text x="808" y="682" font-size="22" fill="#16181B">данных, а не по рельефу.</text>
+  <text x="808" y="726" font-size="22" fill="#5A646E">СанПиН 2.1.3684-21, п. 86</text>
+</svg>

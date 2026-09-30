@@ -1,0 +1,73 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Разрез скважины: статический и динамический уровень, понижение, насос под динамическим уровнем; требуемый напор в примере 35 + 5 + 10 + 3 = 53 м" font-family="'Golos Text', 'Helvetica Neue', Arial, sans-serif">
+  <rect width="1200" height="800" fill="#F1F0EC"/>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#16181B"/></marker>
+    <marker id="al" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#16181B"/></marker>
+  </defs>
+  <text x="48" y="84" font-size="36" font-weight="700" fill="#16181B">Скважинный насос: уровни и требуемый напор</text>
+  <text x="48" y="122" font-size="22" fill="#5A646E">Разрез, условно, не в масштабе. Цифры — условный пример из статьи</text>
+
+  <!-- грунт -->
+  <rect x="48" y="260" width="708" height="300" fill="#B98C62"/>
+  <rect x="48" y="560" width="708" height="192" fill="#E3CF9E"/>
+  <line x1="48" y1="260" x2="756" y2="260" stroke="#7A5A3A" stroke-width="6"/>
+
+  <!-- дом -->
+  <rect x="540" y="180" width="170" height="80" fill="#FFFFFF" stroke="#5A646E" stroke-width="3"/>
+  <polygon points="528,182 625,140 722,182" fill="#DCDAD3" stroke="#5A646E" stroke-width="3" stroke-linejoin="round"/>
+  <text x="572" y="236" font-size="24" font-weight="700" fill="#16181B">Дом</text>
+  <circle cx="676" cy="204" r="8" fill="#3E6E8E"/>
+
+  <!-- обсадная труба -->
+  <rect x="284" y="244" width="40" height="496.0" fill="#FFFFFF" stroke="#8C949C" stroke-width="6"/>
+  <rect x="287" y="596.0" width="34" height="144.0" fill="#CFE3EE"/>
+  <g stroke="#5A646E" stroke-width="3">
+    <line x1="284" y1="690" x2="284" y2="700"/><line x1="324" y1="690" x2="324" y2="700"/>
+    <line x1="284" y1="712" x2="284" y2="722"/><line x1="324" y1="712" x2="324" y2="722"/>
+  </g>
+  <rect x="276" y="236" width="56" height="10" rx="3" fill="#16181B"/>
+  <!-- труба ПНД -->
+  <polyline points="304,612 304,290 640,290 640,204 668,204" fill="none" stroke="#3E6E8E" stroke-width="6"/>
+  <!-- насос -->
+  <rect x="294" y="612" width="20" height="56" rx="4" fill="#3E6E8E" stroke="#16181B" stroke-width="2"/>
+
+  <!-- уровни -->
+  <line x1="270" y1="452" x2="372" y2="452" stroke="#3B7EA1" stroke-width="4" stroke-dasharray="10 6"/>
+  <line x1="226" y1="596.0" x2="372" y2="596.0" stroke="#3B7EA1" stroke-width="4"/>
+  <line x1="352" y1="457" x2="352" y2="591.0" stroke="#16181B" stroke-width="3" marker-start="url(#al)" marker-end="url(#ar)"/>
+  <text x="382" y="460" font-size="24" font-weight="700" fill="#16181B">Статический уровень</text>
+  <text x="382" y="488" font-size="22" fill="#16181B">— в покое</text>
+  <text x="382" y="532" font-size="24" font-weight="700" fill="#16181B">понижение</text>
+  <text x="382" y="604.0" font-size="24" font-weight="700" fill="#16181B">Динамический уровень</text>
+  <text x="382" y="632.0" font-size="22" fill="#16181B">— при откачке</text>
+  <text x="382" y="672" font-size="22" font-weight="700" fill="#16181B">Насос: датчик сухого хода</text>
+  <text x="382" y="700" font-size="22" fill="#16181B">отключит, если уровень упадёт</text>
+  <text x="382" y="728" font-size="22" fill="#16181B">ниже приёмного клапана</text>
+  <line x1="376" y1="664" x2="318" y2="640" stroke="#16181B" stroke-width="2"/>
+
+  <!-- размеры -->
+  <line x1="240" y1="265" x2="240" y2="591.0" stroke="#16181B" stroke-width="3" marker-start="url(#al)" marker-end="url(#ar)"/>
+  <text x="226" y="428.0" font-size="24" font-weight="700" fill="#16181B" text-anchor="middle" transform="rotate(-90 226 428.0)">35 м</text>
+  <line x1="120" y1="740.0" x2="284" y2="740.0" stroke="#16181B" stroke-width="2"/>
+  <line x1="140" y1="265" x2="140" y2="735.0" stroke="#16181B" stroke-width="3" marker-start="url(#al)" marker-end="url(#ar)"/>
+  <text x="126" y="500.0" font-size="24" font-weight="700" fill="#16181B" text-anchor="middle" transform="rotate(-90 126 500.0)">глубина 50 м</text>
+
+  <!-- напор -->
+  <rect x="776" y="150" width="376" height="602" rx="10" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <text x="800" y="192" font-size="26" font-weight="700" fill="#16181B">Требуемый напор</text>
+  <text x="800" y="222" font-size="22" fill="#5A646E">складывается из четырёх частей</text>
+  <rect x="800" y="413.0" width="36" height="287.0" fill="#3B7EA1" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="800" y="372.0" width="36" height="41.0" fill="#8C949C" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="800" y="290.0" width="36" height="82.0" fill="#F2B01E" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="800" y="265.4" width="36" height="24.6" fill="#A93F26" stroke="#FFFFFF" stroke-width="2"/>
+
+  <text x="852" y="285" font-size="22" fill="#16181B"><tspan font-weight="700">3 м</tspan> — потери на трение</text>
+  <text x="852" y="320" font-size="22" fill="#16181B"><tspan font-weight="700">10 м</tspan> — свободный напор</text>
+  <text x="852" y="348" font-size="22" fill="#5A646E">у крана, СП 31, п. 5.11</text>
+  <text x="852" y="400" font-size="22" fill="#16181B"><tspan font-weight="700">5 м</tspan> — от устья до верхней</text>
+  <text x="852" y="428" font-size="22" fill="#16181B">точки разводки в доме</text>
+  <text x="852" y="533" font-size="22" fill="#16181B"><tspan font-weight="700">35 м</tspan> — подъём</text>
+  <text x="852" y="561" font-size="22" fill="#16181B">от динамического</text>
+  <text x="852" y="589" font-size="22" fill="#16181B">уровня до устья</text>
+  <text x="800" y="738" font-size="26" font-weight="700" fill="#16181B">Итого: 53 м</text>
+</svg>

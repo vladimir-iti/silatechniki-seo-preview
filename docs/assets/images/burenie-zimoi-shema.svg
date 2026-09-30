@@ -1,0 +1,58 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Бурение скважины зимой: два заблуждения, что действительно меняется и реальные ограничения" font-family="'Golos Text', 'Helvetica Neue', Arial, sans-serif">
+  <rect width="1200" height="800" fill="#F1F0EC"/>
+
+  <text x="48" y="90" font-size="36" font-weight="700" fill="#16181B">Бурение зимой: мифы и реальность</text>
+  <text x="48" y="130" font-size="23" fill="#5A646E">Технологически зимнее бурение не хуже летнего — меняется организация работ</text>
+
+  <!-- Миф 1 -->
+  <rect x="48" y="164" width="540" height="276" rx="12" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <path d="M49 250 V176 Q49 165 60 165 H576 Q587 165 587 176 V250 Z" fill="#F3DDD6"/>
+  <text x="72" y="198" font-size="22" font-weight="700" fill="#A93F26">Заблуждение</text>
+  <text x="72" y="233" font-size="25" font-weight="700" fill="#16181B">«Мёрзлый грунт мешает бурить»</text>
+  <text x="72" y="288" font-size="22" font-weight="700" fill="#2C7350">На деле</text>
+  <g font-size="22" fill="#16181B">
+    <text x="72" y="322">Мёрзлый слой твёрже и держит технику,</text>
+    <text x="72" y="352">следов на участке остаётся меньше.</text>
+    <text x="72" y="382">Промерзает только верх, ниже —</text>
+    <text x="72" y="412">обычная проходка на десятки метров</text>
+  </g>
+
+  <!-- Миф 2 -->
+  <rect x="612" y="164" width="540" height="276" rx="12" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <path d="M613 250 V176 Q613 165 624 165 H1140 Q1151 165 1151 176 V250 Z" fill="#F3DDD6"/>
+  <text x="636" y="198" font-size="22" font-weight="700" fill="#A93F26">Заблуждение</text>
+  <text x="636" y="233" font-size="25" font-weight="700" fill="#16181B">«Зимняя скважина промёрзнет»</text>
+  <text x="636" y="288" font-size="22" font-weight="700" fill="#2C7350">На деле</text>
+  <g font-size="22" fill="#16181B">
+    <text x="636" y="322">Ствол ниже сезонного промерзания —</text>
+    <text x="636" y="352">такой же, как у летней скважины.</text>
+    <text x="636" y="382">Мёрзнет незащищённый верх: это вопрос</text>
+    <text x="636" y="412">утепления, а не месяца бурения</text>
+  </g>
+
+  <!-- Что меняется -->
+  <rect x="48" y="464" width="540" height="288" rx="12" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <path d="M49 476 Q49 465 60 465 H576 Q587 465 587 476 V480 H49 Z" fill="#3B7EA1"/>
+  <text x="72" y="518" font-size="25" font-weight="700" fill="#16181B">Что действительно меняется</text>
+  <g font-size="22" fill="#16181B">
+    <text x="72" y="562" font-weight="700" fill="#3B7EA1">Промывочная жидкость на морозе</text>
+    <text x="72" y="592">непрерывная циркуляция, утепление —</text>
+    <text x="72" y="622">забота бригады, а не заказчика</text>
+    <text x="72" y="666" font-weight="700" fill="#3B7EA1">Межень: уровень ближе к минимуму</text>
+    <text x="72" y="696">замер дебита выходит консервативным,</text>
+    <text x="72" y="726">то есть скорее честным</text>
+  </g>
+
+  <!-- Ограничения -->
+  <rect x="612" y="464" width="540" height="288" rx="12" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <path d="M613 476 Q613 465 624 465 H1140 Q1151 465 1151 476 V480 H613 Z" fill="#F2B01E"/>
+  <text x="636" y="518" font-size="25" font-weight="700" fill="#16181B">Реальные ограничения</text>
+  <g font-size="22" fill="#16181B">
+    <text x="636" y="562" font-weight="700" fill="#7E5900">Занесённый снегом подъезд</text>
+    <text x="636" y="592">проезд для техники расчищают заранее,</text>
+    <text x="636" y="622">до дня приезда бригады</text>
+    <text x="636" y="666" font-weight="700" fill="#7E5900">Траншея в мёрзлом грунте</text>
+    <text x="636" y="696">копать сложнее и дороже — обвязку</text>
+    <text x="636" y="726">часто переносят на тёплый сезон</text>
+  </g>
+</svg>

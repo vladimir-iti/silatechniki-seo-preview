@@ -1,0 +1,73 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Профиль участка с уклоном: буровая установка на выровненной площадке, отмостка с уклоном от оголовка, сток вниз по склону и перепад высот между домом и устьем скважины" font-family="'Golos Text', 'Helvetica Neue', Arial, sans-serif">
+  <rect width="1200" height="800" fill="#F1F0EC"/>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#16181B"/></marker>
+    <marker id="al" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#16181B"/></marker>
+    <marker id="aw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#3B7EA1"/></marker>
+  </defs>
+  <text x="48" y="84" font-size="34" font-weight="700" fill="#16181B">Скважина на склоне: площадка, сток и перепад высот</text>
+  <text x="48" y="122" font-size="22" fill="#5A646E">Разрез склона сбоку, условно, не в масштабе</text>
+
+  <!-- грунт -->
+  <polygon points="48,260 620,405.1 650,436 900,436 935,484.9 1152,540 1152,590 48,590" fill="#B98C62"/>
+  <polygon points="742,436 900,436 935,484.9" fill="#E3CF9E" stroke="#7A5A3A" stroke-width="1.5"/>
+  <polyline points="48,260 620,405.1 650,436 900,436 935,484.9 1152,540" fill="none" stroke="#7A5A3A" stroke-width="6" stroke-linejoin="round"/>
+  <line x1="620" y1="405.1" x2="742" y2="436" stroke="#16181B" stroke-width="2" stroke-dasharray="6 5"/>
+
+  <!-- трубопровод к дому -->
+  <polyline points="782,472 262,344 236,322" fill="none" stroke="#3E6E8E" stroke-width="5" stroke-dasharray="14 8"/>
+
+  <!-- дом -->
+  <rect x="96" y="285" width="160" height="36" fill="#9A948A"/>
+  <rect x="96" y="205" width="160" height="80" fill="#FFFFFF" stroke="#5A646E" stroke-width="3"/>
+  <polygon points="84,207 176,158 268,207" fill="#DCDAD3" stroke="#5A646E" stroke-width="3" stroke-linejoin="round"/>
+  <text x="176" y="256" font-size="24" font-weight="700" fill="#16181B" text-anchor="middle">Дом</text>
+
+  <!-- перепад высот -->
+  <line x1="256" y1="285" x2="712" y2="285" stroke="#5A646E" stroke-width="2" stroke-dasharray="6 5"/>
+  <line x1="688" y1="408" x2="772" y2="408" stroke="#5A646E" stroke-width="2" stroke-dasharray="6 5"/>
+  <line x1="700" y1="291" x2="700" y2="402" stroke="#16181B" stroke-width="3" marker-start="url(#al)" marker-end="url(#ar)"/>
+  <text x="686" y="334" font-size="24" font-weight="700" fill="#16181B" text-anchor="end">перепад высот</text>
+  <text x="686" y="362" font-size="22" fill="#16181B" text-anchor="end">дом — устье</text>
+
+  <!-- установка условно -->
+  <g fill="#FFFFFF" fill-opacity="0.7" stroke="#5A646E" stroke-width="3" stroke-linejoin="round">
+    <rect x="800" y="380" width="80" height="34"/>
+    <path d="M880 414 V372 H904 L916 392 V414 Z"/>
+    <rect x="784" y="222" width="12" height="176"/>
+    <line x1="796" y1="300" x2="840" y2="380"/>
+  </g>
+  <circle cx="824" cy="422" r="12" fill="#5A646E"/>
+  <circle cx="884" cy="422" r="12" fill="#5A646E"/>
+
+  <!-- скважина и оголовок -->
+  <rect x="782" y="416" width="16" height="174" fill="#8C949C"/>
+  <polygon points="752,440 790,431 828,440 828,448 752,448" fill="#9A948A" stroke="#5A646E" stroke-width="2"/>
+  <rect x="774" y="406" width="32" height="12" fill="#16181B"/>
+
+  <text x="816" y="252" font-size="24" font-weight="700" fill="#16181B">Установка (условно)</text>
+  <text x="816" y="282" font-size="22" fill="#16181B">на ровной площадке:</text>
+  <text x="816" y="310" font-size="22" fill="#16181B">срезка и подсыпка грунта</text>
+
+  <!-- отмостка -->
+  <line x1="724" y1="480" x2="762" y2="446" stroke="#16181B" stroke-width="2"/>
+  <rect x="436" y="480" width="304" height="96" rx="8" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <text x="454" y="510" font-size="22" font-weight="700" fill="#16181B">Отмостка — уклон</text>
+  <text x="454" y="538" font-size="22" fill="#16181B">от оголовка, вода уходит</text>
+  <text x="454" y="566" font-size="22" fill="#16181B">вниз по склону (п. 87)</text>
+
+  <!-- сток -->
+  <line x1="300" y1="307.9" x2="470" y2="351.0" stroke="#3B7EA1" stroke-width="4" marker-end="url(#aw)"/>
+  <line x1="960" y1="475.3" x2="1130" y2="518.4" stroke="#3B7EA1" stroke-width="4" marker-end="url(#aw)"/>
+
+  <!-- карточки -->
+  <rect x="48" y="610" width="544" height="142" rx="10" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <text x="72" y="650" font-size="24" font-weight="700" fill="#A93F26">Дом выше устья</text>
+  <text x="72" y="684" font-size="22" fill="#16181B">Перепад прибавляется к напору насоса —</text>
+  <text x="72" y="712" font-size="22" fill="#16181B">сверх подъёма от динамического уровня</text>
+  <rect x="608" y="610" width="544" height="142" rx="10" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <text x="632" y="650" font-size="24" font-weight="700" fill="#3B7EA1">Дом ниже устья</text>
+  <text x="632" y="684" font-size="22" fill="#16181B">Перепад помогает напору, но при остановке</text>
+  <text x="632" y="712" font-size="22" fill="#16181B">насоса в нижней точке растёт давление —</text>
+  <text x="632" y="740" font-size="22" fill="#16181B">учесть в арматуре и гидроаккумуляторе</text>
+</svg>

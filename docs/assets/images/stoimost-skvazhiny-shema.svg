@@ -1,0 +1,67 @@
+<svg viewBox="0 0 1200 880" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Из чего складывается цена скважины: что входит в ставку за метр, что считается отдельно и что двигает итог" font-family="'Golos Text', 'Helvetica Neue', Arial, sans-serif">
+  <rect width="1200" height="880" fill="#F1F0EC"/>
+
+  <text x="48" y="90" font-size="36" font-weight="700" fill="#16181B">Из чего складывается цена скважины</text>
+  <text x="48" y="130" font-size="23" fill="#5A646E">Цена за метр — только часть сметы. Сравнивайте состав, а не одну цифру</text>
+
+  <!-- A. Ставка за метр -->
+  <rect x="48" y="168" width="500" height="380" rx="12" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <path d="M49 258 V180 Q49 169 60 169 H536 Q547 169 547 180 V258 Z" fill="#FAEBC8"/>
+  <line x1="49" y1="258" x2="547" y2="258" stroke="#F2B01E" stroke-width="3"/>
+  <text x="72" y="208" font-size="26" font-weight="700" fill="#16181B">Бурение по ставке за метр</text>
+  <text x="72" y="242" font-size="22" fill="#7E5900">Как правило, входит в ставку:</text>
+  <g font-size="23" fill="#16181B">
+    <circle cx="80" cy="292" r="5" fill="#F2B01E"/><text x="98" y="300">Выезд инженера, точка бурения</text>
+    <circle cx="80" cy="330" r="5" fill="#F2B01E"/><text x="98" y="338">Проходка с контролем</text>
+    <text x="98" y="366">геологического разреза</text>
+    <circle cx="80" cy="396" r="5" fill="#F2B01E"/><text x="98" y="404">Обсадная колонна и комплектующие</text>
+    <circle cx="80" cy="434" r="5" fill="#F2B01E"/><text x="98" y="442">Прокачка до чистой воды</text>
+    <circle cx="80" cy="472" r="5" fill="#F2B01E"/><text x="98" y="480">Замер дебита</text>
+    <circle cx="80" cy="510" r="5" fill="#F2B01E"/><text x="98" y="518">Паспорт скважины</text>
+  </g>
+
+  <!-- плюс -->
+  <circle cx="596" cy="358" r="26" fill="#16181B"/>
+  <path d="M584 358 H608 M596 346 V370" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- B. Отдельно -->
+  <rect x="644" y="168" width="508" height="380" rx="12" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <path d="M645 258 V180 Q645 169 656 169 H1140 Q1151 169 1151 180 V258 Z" fill="#CFE3EE"/>
+  <line x1="645" y1="258" x2="1151" y2="258" stroke="#3B7EA1" stroke-width="3"/>
+  <text x="668" y="208" font-size="26" font-weight="700" fill="#16181B">Отдельно от ставки</text>
+  <text x="668" y="242" font-size="22" fill="#3B7EA1">Обустройство — своя строка бюджета</text>
+  <g font-size="23" fill="#16181B">
+    <circle cx="676" cy="292" r="5" fill="#3B7EA1"/><text x="694" y="300">Оголовок</text>
+    <circle cx="676" cy="330" r="5" fill="#3B7EA1"/><text x="694" y="338">Кессон или адаптер</text>
+    <circle cx="676" cy="368" r="5" fill="#3B7EA1"/><text x="694" y="376">Насос</text>
+    <circle cx="676" cy="406" r="5" fill="#3B7EA1"/><text x="694" y="414">Гидроаккумулятор и автоматика</text>
+    <circle cx="676" cy="444" r="5" fill="#3B7EA1"/><text x="694" y="452">Разводка воды по дому</text>
+    <circle cx="676" cy="482" r="5" fill="#3B7EA1"/><text x="694" y="490">Лабораторный анализ воды</text>
+  </g>
+
+  <!-- Факторы -->
+  <text x="48" y="604" font-size="26" font-weight="700" fill="#16181B">Что двигает итоговую сумму</text>
+  <g font-size="22" fill="#16181B" text-anchor="middle">
+    <rect x="48" y="628" width="208" height="104" rx="10" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+    <text x="152" y="673">Глубина</text>
+    <text x="152" y="701">горизонта</text>
+    <rect x="272" y="628" width="208" height="104" rx="10" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+    <text x="376" y="673">Категория</text>
+    <text x="376" y="701">буримости пород</text>
+    <rect x="496" y="628" width="208" height="104" rx="10" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+    <text x="600" y="673">Диаметр</text>
+    <text x="600" y="701">скважины</text>
+    <rect x="720" y="628" width="208" height="104" rx="10" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+    <text x="824" y="657">Материал</text>
+    <text x="824" y="685">и диаметр</text>
+    <text x="824" y="713">колонны</text>
+    <rect x="944" y="628" width="208" height="104" rx="10" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+    <text x="1048" y="673">Удалённость</text>
+    <text x="1048" y="701">участка</text>
+  </g>
+
+  <!-- Итог -->
+  <line x1="48" y1="760" x2="1152" y2="760" stroke="#DCDAD3" stroke-width="2"/>
+  <text x="48" y="800" font-size="23" font-weight="700" fill="#16181B">Точная сумма — после выезда инженера (бесплатно)</text>
+  <text x="48" y="832" font-size="22" fill="#5A646E">Сумма фиксируется в договоре до начала работ и дальше не меняется</text>
+</svg>

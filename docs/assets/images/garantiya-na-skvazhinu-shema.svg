@@ -1,0 +1,75 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Три разных гарантии на скважину: работа подрядчика, оборудование и природные условия" font-family="'Golos Text', 'Helvetica Neue', Arial, sans-serif">
+  <rect width="1200" height="800" fill="#F1F0EC"/>
+
+  <text x="48" y="90" font-size="36" font-weight="700" fill="#16181B">Что скрывается за словом «гарантия»</text>
+  <text x="48" y="130" font-size="23" fill="#5A646E">Три разные зоны ответственности — в договоре их стоит различать</text>
+
+  <!-- 1. Работа подрядчика -->
+  <rect x="48" y="168" width="352" height="462" rx="12" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <path d="M49 266 V180 Q49 169 60 169 H388 Q399 169 399 180 V266 Z" fill="#DCEBE2"/>
+  <line x1="49" y1="266" x2="399" y2="266" stroke="#2C7350" stroke-width="3"/>
+  <text x="72" y="210" font-size="26" font-weight="700" fill="#16181B">Работа подрядчика</text>
+  <text x="72" y="246" font-size="22" font-weight="700" fill="#2C7350">Гарантия подрядчика</text>
+  <g font-size="22" fill="#16181B">
+    <circle cx="78" cy="299" r="5" fill="#2C7350"/><text x="94" y="306">Герметичность стыков</text>
+    <circle cx="78" cy="333" r="5" fill="#2C7350"/><text x="94" y="340">Сборка обсадной колонны</text>
+    <circle cx="78" cy="367" r="5" fill="#2C7350"/><text x="94" y="374">Монтаж оголовка</text>
+    <circle cx="78" cy="401" r="5" fill="#2C7350"/><text x="94" y="408">Монтаж обвязки</text>
+    <circle cx="78" cy="435" r="5" fill="#2C7350"/><text x="94" y="442">Соответствие договору</text>
+  </g>
+  <rect x="64" y="470" width="320" height="144" rx="10" fill="#F1F0EC"/>
+  <g font-size="22" fill="#16181B">
+    <text x="84" y="504">Брак здесь — потёк стык,</text>
+    <text x="84" y="532">неправильно стоит узел —</text>
+    <text x="84" y="560">исправляет подрядчик</text>
+    <text x="84" y="588">за свой счёт</text>
+  </g>
+
+  <!-- 2. Оборудование -->
+  <rect x="424" y="168" width="352" height="462" rx="12" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <path d="M425 266 V180 Q425 169 436 169 H764 Q775 169 775 180 V266 Z" fill="#FAEBC8"/>
+  <line x1="425" y1="266" x2="775" y2="266" stroke="#F2B01E" stroke-width="3"/>
+  <text x="448" y="210" font-size="26" font-weight="700" fill="#16181B">Оборудование</text>
+  <text x="448" y="246" font-size="22" font-weight="700" fill="#7E5900">Гарантия производителя</text>
+  <g font-size="22" fill="#16181B">
+    <circle cx="454" cy="299" r="5" fill="#F2B01E"/><text x="470" y="306">Насос</text>
+    <circle cx="454" cy="333" r="5" fill="#F2B01E"/><text x="470" y="340">Автоматика</text>
+    <circle cx="454" cy="367" r="5" fill="#F2B01E"/><text x="470" y="374">Гидроаккумулятор</text>
+  </g>
+  <rect x="440" y="470" width="320" height="144" rx="10" fill="#F1F0EC"/>
+  <g font-size="22" fill="#16181B">
+    <text x="460" y="504">Свой срок от завода,</text>
+    <text x="460" y="532">независимо от работ.</text>
+    <text x="460" y="560">Заводской брак —</text>
+    <text x="460" y="588">в сервисный центр</text>
+  </g>
+
+  <!-- 3. Природные условия -->
+  <rect x="800" y="168" width="352" height="462" rx="12" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <path d="M801 266 V180 Q801 169 812 169 H1140 Q1151 169 1151 180 V266 Z" fill="#F3DDD6"/>
+  <line x1="801" y1="266" x2="1151" y2="266" stroke="#A93F26" stroke-width="3"/>
+  <text x="824" y="210" font-size="26" font-weight="700" fill="#16181B">Природные условия</text>
+  <text x="824" y="246" font-size="22" font-weight="700" fill="#A93F26">Не предмет гарантии</text>
+  <g font-size="22" fill="#16181B">
+    <circle cx="830" cy="299" r="5" fill="#A93F26"/><text x="846" y="306">Дебит скважины</text>
+    <circle cx="830" cy="333" r="5" fill="#A93F26"/><text x="846" y="340">Химический состав воды</text>
+    <text x="824" y="394" font-weight="700">Их задаёт пласт,</text>
+    <text x="824" y="422" font-weight="700">а не буровая компания</text>
+  </g>
+  <rect x="816" y="470" width="320" height="144" rx="10" fill="#CFE3EE"/>
+  <g font-size="22" fill="#16181B">
+    <text x="836" y="504">Пласт меняется сам:</text>
+    <text x="836" y="532">сезонный уровень вод,</text>
+    <text x="836" y="560">угольные объекты рядом,</text>
+    <text x="836" y="588">истощение горизонта</text>
+  </g>
+
+  <!-- Маловодный результат -->
+  <clipPath id="foot"><rect x="48" y="656" width="1104" height="96" rx="12"/></clipPath>
+  <g clip-path="url(#foot)">
+    <rect x="48" y="656" width="1104" height="96" fill="#FFFFFF"/>
+    <rect x="48" y="656" width="10" height="96" fill="#5A646E"/>
+  </g>
+  <text x="80" y="696" font-size="23" font-weight="700" fill="#16181B">Мало воды или сухо уже при бурении — это не гарантийный случай</text>
+  <text x="80" y="730" font-size="22" fill="#5A646E">Такие условия — отдельный пункт договора, его согласуют до начала работ</text>
+</svg>

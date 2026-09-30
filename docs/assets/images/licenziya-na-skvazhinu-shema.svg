@@ -1,0 +1,84 @@
+<svg viewBox="0 0 1200 860" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Нужна ли лицензия на скважину: три условия статьи 19, порядок для СНТ, паспорт скважины и учётная карточка" font-family="'Golos Text', 'Helvetica Neue', Arial, sans-serif">
+  <rect width="1200" height="860" fill="#F1F0EC"/>
+
+  <text x="48" y="90" font-size="36" font-weight="700" fill="#16181B">Нужна ли лицензия на скважину</text>
+  <text x="48" y="130" font-size="23" fill="#5A646E">Статья 19 Закона РФ «О недрах»: три условия — все одновременно, а не на выбор</text>
+
+  <!-- Левая часть: три условия -->
+  <g font-size="24" fill="#16181B">
+    <!-- 1 -->
+    <rect x="48" y="172" width="540" height="96" rx="12" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+    <circle cx="96" cy="220" r="24" fill="#F2B01E"/>
+    <text x="96" y="229" font-size="26" font-weight="700" text-anchor="middle">1</text>
+    <text x="140" y="212" font-weight="700">Не более 100 м³ воды</text>
+    <text x="140" y="244">в сутки</text>
+
+    <!-- И -->
+    <text x="96" y="302" font-size="24" font-weight="700" fill="#7E5900" text-anchor="middle">И</text>
+
+    <!-- 2 -->
+    <rect x="48" y="320" width="540" height="128" rx="12" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+    <circle cx="96" cy="384" r="24" fill="#F2B01E"/>
+    <text x="96" y="393" font-size="26" font-weight="700" text-anchor="middle">2</text>
+    <text x="140" y="360" font-weight="700">Горизонт — не источник</text>
+    <text x="140" y="392">централизованного водоснабжения</text>
+    <text x="140" y="424">и залегает выше таких горизонтов</text>
+
+    <!-- И -->
+    <text x="96" y="482" font-size="24" font-weight="700" fill="#7E5900" text-anchor="middle">И</text>
+
+    <!-- 3 -->
+    <rect x="48" y="500" width="540" height="96" rx="12" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+    <circle cx="96" cy="548" r="24" fill="#F2B01E"/>
+    <text x="96" y="557" font-size="26" font-weight="700" text-anchor="middle">3</text>
+    <text x="140" y="540" font-weight="700">Вода — на личные, бытовые нужды</text>
+    <text x="140" y="572">не для предпринимательства</text>
+  </g>
+
+  <!-- стрелка к результату -->
+  <line x1="318" y1="596" x2="318" y2="628" stroke="#5A646E" stroke-width="3"/>
+  <path d="M318 640 L309 624 L327 624 Z" fill="#5A646E"/>
+
+  <!-- итог: да -->
+  <rect x="48" y="644" width="540" height="84" rx="12" fill="#DCEBE2" stroke="#2C7350" stroke-width="3"/>
+  <text x="72" y="679" font-size="25" font-weight="700" fill="#2C7350">Все три «да» — лицензия не нужна</text>
+  <text x="72" y="711" font-size="22" fill="#16181B">Обязателен паспорт скважины</text>
+
+  <!-- итог: нет -->
+  <rect x="48" y="740" width="540" height="72" rx="12" fill="#F3DDD6"/>
+  <text x="72" y="769" font-size="22" font-weight="700" fill="#A93F26">Хотя бы одно «нет» — нужна лицензия.</text>
+  <text x="72" y="798" font-size="22" fill="#16181B">Без неё — штраф по ст. 7.3 КоАП РФ</text>
+
+  <!-- Правая часть: карточки -->
+  <!-- СНТ -->
+  <rect x="624" y="172" width="528" height="196" rx="12" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <text x="652" y="214" font-size="25" font-weight="700" fill="#16181B">СНТ и ОНТ — разные случаи</text>
+  <g font-size="22" fill="#16181B">
+    <circle cx="660" cy="249" r="5" fill="#F2B01E"/>
+    <text x="676" y="256">Общая скважина товарищества —</text>
+    <text x="676" y="286">статья 19.2, упрощённый порядок</text>
+    <circle cx="660" cy="315" r="5" fill="#F2B01E"/>
+    <text x="676" y="322">Личная скважина садовода —</text>
+    <text x="676" y="352">статья 19 и те же три условия</text>
+  </g>
+
+  <!-- Паспорт -->
+  <rect x="624" y="392" width="528" height="196" rx="12" fill="#CFE3EE"/>
+  <text x="652" y="434" font-size="25" font-weight="700" fill="#16181B">Паспорт скважины ≠ лицензия</text>
+  <g font-size="22" fill="#16181B">
+    <text x="652" y="472">Техническое описание по факту бурения:</text>
+    <text x="652" y="502">конструкция, глубина, колонна, фильтр,</text>
+    <text x="652" y="532">дебит. Не разрешительный документ.</text>
+    <text x="652" y="566" fill="#5A646E">Выдаёт подрядчик с договором и актом</text>
+  </g>
+
+  <!-- 1 сентября 2026 -->
+  <rect x="624" y="612" width="528" height="200" rx="12" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <text x="652" y="654" font-size="25" font-weight="700" fill="#16181B">С 1 сентября 2026 года</text>
+  <g font-size="22" fill="#16181B">
+    <text x="652" y="692">Учётная карточка скважины подаётся</text>
+    <text x="652" y="722">через личный кабинет недропользователя —</text>
+    <text x="652" y="752">это для пользователей недр с лицензией.</text>
+    <text x="652" y="788" font-weight="700" fill="#2C7350">Владельцев бытовых скважин не касается</text>
+  </g>
+</svg>

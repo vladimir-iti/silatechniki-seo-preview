@@ -1,0 +1,95 @@
+<svg viewBox="0 0 1200 890" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="В какой сезон бурить скважину: сроки, грунт и заезд, уровень воды и обвязка по сезонам" font-family="'Golos Text', 'Helvetica Neue', Arial, sans-serif">
+  <rect width="1200" height="890" fill="#F1F0EC"/>
+  <text x="48" y="90" font-size="36" font-weight="700" fill="#16181B">В какой сезон бурить скважину</text>
+  <text x="48" y="130" font-size="23" fill="#5A646E">Плохого сезона нет — у каждого свой набор компромиссов</text>
+  <rect x="256" y="164" width="218" height="72" rx="10" fill="#CFE3EE"/>
+  <text x="365" y="209" font-size="26" font-weight="700" fill="#16181B" text-anchor="middle">Зима</text>
+  <rect x="482" y="164" width="218" height="72" rx="10" fill="#DCEBE2"/>
+  <text x="591" y="209" font-size="26" font-weight="700" fill="#16181B" text-anchor="middle">Весна</text>
+  <rect x="708" y="164" width="218" height="72" rx="10" fill="#FAEBC8"/>
+  <text x="817" y="209" font-size="26" font-weight="700" fill="#16181B" text-anchor="middle">Лето</text>
+  <rect x="934" y="164" width="218" height="72" rx="10" fill="#F3DDD6"/>
+  <text x="1043" y="196" font-size="26" font-weight="700" fill="#16181B" text-anchor="middle">Осень</text>
+  <text x="1043" y="224" font-size="22" fill="#5A646E" text-anchor="middle">до морозов</text>
+  <line x1="48" y1="248" x2="244" y2="248" stroke="#16181B" stroke-width="3"/>
+  <text x="48" y="288" font-size="24" font-weight="700" fill="#16181B">Загрузка</text>
+  <text x="48" y="318" font-size="24" font-weight="700" fill="#16181B">бригад</text>
+  <rect x="256" y="248" width="218" height="128" rx="10" fill="#FFFFFF" stroke="#DCDAD3" stroke-width="2"/>
+  <text x="365" y="292" font-size="22" fill="#16181B" text-anchor="middle">Заявок меньше —</text>
+  <text x="365" y="320" font-size="22" fill="#16181B" text-anchor="middle">проще попасть</text>
+  <text x="365" y="348" font-size="22" fill="#16181B" text-anchor="middle">на нужную дату</text>
+  <rect x="482" y="248" width="218" height="128" rx="10" fill="#FFFFFF" stroke="#DCDAD3" stroke-width="2"/>
+  <text x="591" y="292" font-size="22" fill="#16181B" text-anchor="middle">Межсезонье —</text>
+  <text x="591" y="320" font-size="22" fill="#16181B" text-anchor="middle">договориться</text>
+  <text x="591" y="348" font-size="22" fill="#16181B" text-anchor="middle">на дату проще</text>
+  <rect x="708" y="248" width="218" height="128" rx="10" fill="#FFFFFF" stroke="#DCDAD3" stroke-width="2"/>
+  <text x="817" y="292" font-size="22" fill="#16181B" text-anchor="middle">Пик спроса:</text>
+  <text x="817" y="320" font-size="22" fill="#16181B" text-anchor="middle">запись на недели</text>
+  <text x="817" y="348" font-size="22" fill="#16181B" text-anchor="middle">вперёд</text>
+  <rect x="934" y="248" width="218" height="128" rx="10" fill="#FFFFFF" stroke="#DCDAD3" stroke-width="2"/>
+  <text x="1043" y="306" font-size="22" fill="#16181B" text-anchor="middle">Частый выбор</text>
+  <text x="1043" y="334" font-size="22" fill="#16181B" text-anchor="middle">«успеть до зимы»</text>
+  <line x1="48" y1="386" x2="244" y2="386" stroke="#16181B" stroke-width="3"/>
+  <text x="48" y="426" font-size="24" font-weight="700" fill="#16181B">Грунт</text>
+  <text x="48" y="456" font-size="24" font-weight="700" fill="#16181B">и заезд</text>
+  <rect x="256" y="386" width="218" height="128" rx="10" fill="#FFFFFF" stroke="#DCDAD3" stroke-width="2"/>
+  <text x="365" y="430" font-size="22" fill="#16181B" text-anchor="middle">Мёрзлый слой</text>
+  <text x="365" y="458" font-size="22" fill="#16181B" text-anchor="middle">держит технику,</text>
+  <text x="365" y="486" font-size="22" fill="#16181B" text-anchor="middle">следов меньше</text>
+  <rect x="482" y="386" width="218" height="128" rx="10" fill="#FFFFFF" stroke="#DCDAD3" stroke-width="2"/>
+  <text x="591" y="430" font-size="22" fill="#16181B" text-anchor="middle">Распутица</text>
+  <text x="591" y="458" font-size="22" fill="#16181B" text-anchor="middle">может ограничить</text>
+  <text x="591" y="486" font-size="22" fill="#16181B" text-anchor="middle">подъезд техники</text>
+  <rect x="708" y="386" width="218" height="128" rx="10" fill="#FFFFFF" stroke="#DCDAD3" stroke-width="2"/>
+  <text x="817" y="430" font-size="22" fill="#16181B" text-anchor="middle">Сухой плотный</text>
+  <text x="817" y="458" font-size="22" fill="#16181B" text-anchor="middle">грунт, заезд</text>
+  <text x="817" y="486" font-size="22" fill="#16181B" text-anchor="middle">предсказуем</text>
+  <rect x="934" y="386" width="218" height="128" rx="10" fill="#FFFFFF" stroke="#DCDAD3" stroke-width="2"/>
+  <text x="1043" y="430" font-size="22" fill="#16181B" text-anchor="middle">Не промёрз</text>
+  <text x="1043" y="458" font-size="22" fill="#16181B" text-anchor="middle">и не раскисает —</text>
+  <text x="1043" y="486" font-size="22" fill="#16181B" text-anchor="middle">удобное окно</text>
+  <line x1="48" y1="524" x2="244" y2="524" stroke="#16181B" stroke-width="3"/>
+  <text x="48" y="564" font-size="24" font-weight="700" fill="#16181B">Уровень</text>
+  <text x="48" y="594" font-size="24" font-weight="700" fill="#16181B">воды</text>
+  <text x="48" y="634" font-size="22" fill="#5A646E">условно,</text>
+  <text x="48" y="660" font-size="22" fill="#5A646E">не в масштабе</text>
+  <rect x="256" y="524" width="218" height="180" rx="10" fill="#FFFFFF" stroke="#DCDAD3" stroke-width="2"/>
+  <rect x="482" y="524" width="218" height="180" rx="10" fill="#FFFFFF" stroke="#DCDAD3" stroke-width="2"/>
+  <rect x="708" y="524" width="218" height="180" rx="10" fill="#FFFFFF" stroke="#DCDAD3" stroke-width="2"/>
+  <rect x="934" y="524" width="218" height="180" rx="10" fill="#FFFFFF" stroke="#DCDAD3" stroke-width="2"/>
+  <line x1="48" y1="714" x2="244" y2="714" stroke="#16181B" stroke-width="3"/>
+  <text x="48" y="754" font-size="24" font-weight="700" fill="#16181B">Обвязка,</text>
+  <text x="48" y="784" font-size="24" font-weight="700" fill="#16181B">ввод в дом</text>
+  <rect x="256" y="714" width="218" height="128" rx="10" fill="#FFFFFF" stroke="#DCDAD3" stroke-width="2"/>
+  <text x="365" y="758" font-size="22" fill="#16181B" text-anchor="middle">Траншея зимой</text>
+  <text x="365" y="786" font-size="22" fill="#16181B" text-anchor="middle">копать дороже —</text>
+  <text x="365" y="814" font-size="22" fill="#16181B" text-anchor="middle">часто на весну</text>
+  <rect x="482" y="714" width="218" height="128" rx="10" fill="#FFFFFF" stroke="#DCDAD3" stroke-width="2"/>
+  <text x="591" y="758" font-size="22" fill="#16181B" text-anchor="middle">Копать после</text>
+  <text x="591" y="786" font-size="22" fill="#16181B" text-anchor="middle">просыхания</text>
+  <text x="591" y="814" font-size="22" fill="#16181B" text-anchor="middle">участка</text>
+  <rect x="708" y="714" width="218" height="128" rx="10" fill="#FFFFFF" stroke="#DCDAD3" stroke-width="2"/>
+  <text x="817" y="758" font-size="22" fill="#16181B" text-anchor="middle">Копается легко,</text>
+  <text x="817" y="786" font-size="22" fill="#16181B" text-anchor="middle">воду в дом</text>
+  <text x="817" y="814" font-size="22" fill="#16181B" text-anchor="middle">можно сразу</text>
+  <rect x="934" y="714" width="218" height="128" rx="10" fill="#FFFFFF" stroke="#DCDAD3" stroke-width="2"/>
+  <text x="1043" y="772" font-size="22" fill="#16181B" text-anchor="middle">Последнее окно</text>
+  <text x="1043" y="800" font-size="22" fill="#16181B" text-anchor="middle">до заморозков</text>
+  <clipPath id="wrow"><rect x="256" y="524" width="896" height="180"/></clipPath>
+  <g clip-path="url(#wrow)">
+    <path d="M256 582 C274 582 309 588 365 580 C421 572 516 537 591 532 C666 527 742 546 817 552 C892 558 987 563 1043 568 C1099 573 1134 578 1152 580 V596 H256 Z" fill="#CFE3EE" opacity="0.8"/>
+    <path d="M256 582 C274 582 309 588 365 580 C421 572 516 537 591 532 C666 527 742 546 817 552 C892 558 987 563 1043 568 C1099 573 1134 578 1152 580" fill="none" stroke="#3B7EA1" stroke-width="4"/>
+  </g>
+  <text x="365" y="630" font-size="22" fill="#16181B" text-anchor="middle">Межень —</text>
+  <text x="365" y="658" font-size="22" fill="#16181B" text-anchor="middle">замер</text>
+  <text x="365" y="686" font-size="22" fill="#16181B" text-anchor="middle">честнее</text>
+  <text x="591" y="630" font-size="22" fill="#16181B" text-anchor="middle">Половодье —</text>
+  <text x="591" y="658" font-size="22" fill="#16181B" text-anchor="middle">дебит может</text>
+  <text x="591" y="686" font-size="22" fill="#16181B" text-anchor="middle">выглядеть выше</text>
+  <text x="817" y="630" font-size="22" fill="#16181B" text-anchor="middle">Уровень</text>
+  <text x="817" y="658" font-size="22" fill="#16181B" text-anchor="middle">обычно</text>
+  <text x="817" y="686" font-size="22" fill="#16181B" text-anchor="middle">устойчив</text>
+  <text x="1043" y="630" font-size="22" fill="#16181B" text-anchor="middle">Снижение</text>
+  <text x="1043" y="658" font-size="22" fill="#16181B" text-anchor="middle">к зимней</text>
+  <text x="1043" y="686" font-size="22" fill="#16181B" text-anchor="middle">межени</text>
+</svg>

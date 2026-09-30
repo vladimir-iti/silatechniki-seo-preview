@@ -1,0 +1,63 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Порядок проверки, если пропала вода в скважине: электрика, реле давления, гидроаккумулятор и клапан, уровень воды, признаки проблемы в скважине, вызов специалиста" font-family="'Golos Text', 'Helvetica Neue', Arial, sans-serif">
+  <rect width="1200" height="800" fill="#F1F0EC"/>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#5A646E"/>
+    </marker>
+  </defs>
+  <text x="48" y="84" font-size="36" font-weight="700" fill="#16181B">Пропала вода: что проверить по порядку</text>
+  <text x="48" y="122" font-size="22" fill="#5A646E">Сверху вниз — от дешёвого к дорогому. Справа — что делать, если причина здесь</text>
+  <rect x="48" y="150" width="692" height="80" rx="10" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <circle cx="92" cy="190" r="22" fill="#F2B01E"/>
+  <text x="92" y="198" font-size="24" font-weight="700" fill="#16181B" text-anchor="middle">1</text>
+  <text x="136" y="185" font-size="24" font-weight="700" fill="#16181B">Электрика</text>
+  <text x="136" y="214" font-size="22" fill="#5A646E">Автомат на щитке, тепловая защита, кабель</text>
+  <line x1="740" y1="190" x2="770" y2="190" stroke="#5A646E" stroke-width="3" marker-end="url(#ar)"/>
+  <rect x="776" y="162" width="376" height="56" rx="8" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <text x="798" y="198" font-size="22" fill="#16181B">Выбивает снова — электрик</text>
+  <line x1="92" y1="230" x2="92" y2="251" stroke="#5A646E" stroke-width="3" marker-end="url(#ar)"/>
+  <rect x="48" y="252" width="692" height="80" rx="10" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <circle cx="92" cy="292" r="22" fill="#F2B01E"/>
+  <text x="92" y="300" font-size="24" font-weight="700" fill="#16181B" text-anchor="middle">2</text>
+  <text x="136" y="287" font-size="24" font-weight="700" fill="#16181B">Реле давления и автоматика</text>
+  <text x="136" y="316" font-size="22" fill="#5A646E">Щёлкает ли реле при открытом кране</text>
+  <line x1="740" y1="292" x2="770" y2="292" stroke="#5A646E" stroke-width="3" marker-end="url(#ar)"/>
+  <rect x="776" y="264" width="376" height="56" rx="8" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <text x="798" y="300" font-size="22" fill="#16181B">Ремонт реле — мастеру</text>
+  <line x1="92" y1="332" x2="92" y2="353" stroke="#5A646E" stroke-width="3" marker-end="url(#ar)"/>
+  <rect x="48" y="354" width="692" height="80" rx="10" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <circle cx="92" cy="394" r="22" fill="#F2B01E"/>
+  <text x="92" y="402" font-size="24" font-weight="700" fill="#16181B" text-anchor="middle">3</text>
+  <text x="136" y="389" font-size="24" font-weight="700" fill="#16181B">Гидроаккумулятор и обратный клапан</text>
+  <text x="136" y="418" font-size="22" fill="#5A646E">Рваный напор; вода вместо воздуха из ниппеля</text>
+  <line x1="740" y1="394" x2="770" y2="394" stroke="#5A646E" stroke-width="3" marker-end="url(#ar)"/>
+  <rect x="776" y="366" width="376" height="56" rx="8" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <text x="798" y="402" font-size="22" fill="#16181B">Клапан — нужен инструмент</text>
+  <line x1="92" y1="434" x2="92" y2="455" stroke="#5A646E" stroke-width="3" marker-end="url(#ar)"/>
+  <rect x="48" y="456" width="692" height="80" rx="10" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <circle cx="92" cy="496" r="22" fill="#F2B01E"/>
+  <text x="92" y="504" font-size="24" font-weight="700" fill="#16181B" text-anchor="middle">4</text>
+  <text x="136" y="491" font-size="24" font-weight="700" fill="#16181B">Уровень воды и сухой ход</text>
+  <text x="136" y="520" font-size="22" fill="#5A646E">Насос шумит, а напор слабый или прерывистый</text>
+  <line x1="740" y1="496" x2="770" y2="496" stroke="#5A646E" stroke-width="3" marker-end="url(#ar)"/>
+  <rect x="776" y="468" width="376" height="56" rx="8" fill="#F3DDD6" stroke="#A93F26" stroke-width="2"/>
+  <text x="798" y="504" font-size="22" fill="#A93F26" font-weight="700">Не перезапускать насос</text>
+  <line x1="92" y1="536" x2="92" y2="557" stroke="#5A646E" stroke-width="3" marker-end="url(#ar)"/>
+  <rect x="48" y="558" width="692" height="80" rx="10" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <circle cx="92" cy="598" r="22" fill="#F2B01E"/>
+  <text x="92" y="606" font-size="24" font-weight="700" fill="#16181B" text-anchor="middle">5</text>
+  <text x="136" y="593" font-size="24" font-weight="700" fill="#16181B">Признаки проблемы в самой скважине</text>
+  <text x="136" y="622" font-size="22" fill="#5A646E">Угасала постепенно; муть, осадок, звуки</text>
+  <line x1="740" y1="598" x2="770" y2="598" stroke="#5A646E" stroke-width="3" marker-end="url(#ar)"/>
+  <rect x="776" y="570" width="376" height="56" rx="8" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <text x="798" y="606" font-size="22" fill="#16181B">Подъём насоса, видеокамера</text>
+  <line x1="92" y1="638" x2="92" y2="659" stroke="#5A646E" stroke-width="3" marker-end="url(#ar)"/>
+  <rect x="48" y="660" width="692" height="80" rx="10" fill="#FAEBC8" stroke="#F2B01E" stroke-width="2"/>
+  <circle cx="92" cy="700" r="22" fill="#F2B01E"/>
+  <text x="92" y="708" font-size="24" font-weight="700" fill="#16181B" text-anchor="middle">6</text>
+  <text x="136" y="695" font-size="24" font-weight="700" fill="#16181B">Когда звонить</text>
+  <text x="136" y="724" font-size="22" fill="#5A646E">За 10–15 минут проверки причина не нашлась</text>
+  <line x1="740" y1="700" x2="770" y2="700" stroke="#5A646E" stroke-width="3" marker-end="url(#ar)"/>
+  <rect x="776" y="672" width="376" height="56" rx="8" fill="#FAEBC8" stroke="#F2B01E" stroke-width="2"/>
+  <text x="798" y="708" font-size="22" fill="#7E5900" font-weight="700">Вызвать специалиста</text>
+</svg>

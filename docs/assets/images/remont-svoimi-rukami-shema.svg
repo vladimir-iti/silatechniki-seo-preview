@@ -1,0 +1,92 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ремонт скважины своими руками: что можно делать самому, что на грани и что нельзя" font-family="'Golos Text', 'Helvetica Neue', Arial, sans-serif">
+  <rect width="1200" height="800" fill="#F1F0EC"/>
+
+  <text x="48" y="90" font-size="36" font-weight="700" fill="#16181B">Ремонт скважины своими руками: где граница</text>
+  <text x="48" y="130" font-size="23" fill="#5A646E">Ошибку можно исправить — пробуйте сами. Нельзя исправить — не рискуйте.</text>
+
+  <!-- шкала цены ошибки -->
+  <line x1="48" y1="174" x2="1138" y2="174" stroke="#5A646E" stroke-width="2"/>
+  <path d="M1152 174 L1134 166 L1134 182 Z" fill="#5A646E"/>
+  <rect x="468" y="160" width="264" height="28" fill="#F1F0EC"/>
+  <text x="600" y="182" font-size="22" fill="#5A646E" text-anchor="middle">цена ошибки растёт</text>
+
+  <!-- Колонка 1: можно -->
+  <rect x="48" y="208" width="352" height="440" rx="12" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <path d="M49 280 V220 Q49 209 60 209 H388 Q399 209 399 220 V280 Z" fill="#DCEBE2"/>
+  <line x1="49" y1="280" x2="399" y2="280" stroke="#2C7350" stroke-width="3"/>
+  <circle cx="88" cy="244" r="18" fill="#2C7350"/>
+  <path d="M79 244 L86 251 L98 237" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="120" y="253" font-size="26" font-weight="700" fill="#16181B">Можно самому</text>
+
+  <g font-size="23" fill="#16181B">
+    <circle cx="78" cy="317" r="5" fill="#2C7350"/>
+    <text x="96" y="325">Осмотр оголовка:</text>
+    <text x="96" y="355">уплотнение, крышка,</text>
+    <text x="96" y="385">крепление</text>
+    <circle cx="78" cy="427" r="5" fill="#2C7350"/>
+    <text x="96" y="435">Проверка автомата</text>
+    <text x="96" y="465">на щитке</text>
+    <circle cx="78" cy="507" r="5" fill="#2C7350"/>
+    <text x="96" y="515">Подкачка воздуха</text>
+    <text x="96" y="545">в гидроаккумулятор</text>
+    <circle cx="78" cy="587" r="5" fill="#2C7350"/>
+    <text x="96" y="595">Внешний осмотр реле</text>
+    <text x="96" y="625">и автоматики</text>
+  </g>
+
+  <!-- Колонка 2: на грани -->
+  <rect x="424" y="208" width="352" height="440" rx="12" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <path d="M425 280 V220 Q425 209 436 209 H764 Q775 209 775 220 V280 Z" fill="#FAEBC8"/>
+  <line x1="425" y1="280" x2="775" y2="280" stroke="#F2B01E" stroke-width="3"/>
+  <circle cx="464" cy="244" r="18" fill="#F2B01E"/>
+  <text x="464" y="253" font-size="26" font-weight="700" fill="#16181B" text-anchor="middle">!</text>
+  <text x="496" y="253" font-size="26" font-weight="700" fill="#16181B">На грани</text>
+
+  <g font-size="23" fill="#16181B">
+    <circle cx="454" cy="317" r="5" fill="#F2B01E"/>
+    <text x="472" y="325">Подъём лёгкого насоса</text>
+    <text x="472" y="355">с малой глубины —</text>
+    <text x="472" y="385">лебёдкой или треногой</text>
+    <circle cx="454" cy="427" r="5" fill="#F2B01E"/>
+    <text x="472" y="435">Насос не идёт —</text>
+    <text x="472" y="465">стоп, пока трос цел</text>
+    <circle cx="454" cy="507" r="5" fill="#F2B01E"/>
+    <text x="472" y="515">Настройка реле</text>
+    <text x="472" y="545">давления</text>
+    <circle cx="454" cy="587" r="5" fill="#F2B01E"/>
+    <text x="472" y="595">Замена мембраны</text>
+    <text x="472" y="625">гидроаккумулятора</text>
+  </g>
+
+  <!-- Колонка 3: нельзя -->
+  <rect x="800" y="208" width="352" height="440" rx="12" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <path d="M801 280 V220 Q801 209 812 209 H1140 Q1151 209 1151 220 V280 Z" fill="#F3DDD6"/>
+  <line x1="801" y1="280" x2="1151" y2="280" stroke="#A93F26" stroke-width="3"/>
+  <circle cx="840" cy="244" r="18" fill="#A93F26"/>
+  <path d="M832 236 L848 252 M848 236 L832 252" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  <text x="872" y="253" font-size="26" font-weight="700" fill="#16181B">Нельзя</text>
+
+  <g font-size="23" fill="#16181B">
+    <circle cx="830" cy="317" r="5" fill="#A93F26"/>
+    <text x="848" y="325">Желонка вслепую</text>
+    <circle cx="830" cy="377" r="5" fill="#A93F26"/>
+    <text x="848" y="385">Кислота и реагенты</text>
+    <text x="848" y="415">без знания конструкции</text>
+    <circle cx="830" cy="467" r="5" fill="#A93F26"/>
+    <text x="848" y="475">Тянуть застрявший</text>
+    <text x="848" y="505">насос силой</text>
+    <circle cx="830" cy="557" r="5" fill="#A93F26"/>
+    <text x="848" y="565">Проводка в кессоне —</text>
+    <text x="848" y="595">обесточить и вызвать</text>
+    <text x="848" y="625">электрика</text>
+  </g>
+
+  <!-- Санитарный минимум -->
+  <clipPath id="foot"><rect x="48" y="672" width="1104" height="80" rx="12"/></clipPath>
+  <g clip-path="url(#foot)">
+    <rect x="48" y="672" width="1104" height="80" fill="#CFE3EE"/>
+    <rect x="48" y="672" width="10" height="80" fill="#3B7EA1"/>
+  </g>
+  <text x="80" y="704" font-size="23" font-weight="700" fill="#16181B">После любой чистки или ремонта — дезинфекция, промывка и анализ воды</text>
+  <text x="80" y="736" font-size="22" fill="#5A646E">Чистка не реже раза в год — СанПиН 2.1.3684-21, п. 89</text>
+</svg>

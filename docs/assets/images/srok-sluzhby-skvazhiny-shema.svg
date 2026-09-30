@@ -1,0 +1,35 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Шкала жизни скважины: первые два дня задают потолок ресурса, годы эксплуатации зависят от владельца, затем признаки, что ресурс на исходе" font-family="'Golos Text', 'Helvetica Neue', Arial, sans-serif">
+  <rect width="1200" height="800" fill="#F1F0EC"/>
+  <text x="48" y="84" font-size="36" font-weight="700" fill="#16181B">Срок службы скважины: из чего складывается</text>
+  <text x="48" y="122" font-size="22" fill="#5A646E">Бурение задаёт потолок ресурса, эксплуатация — насколько близко к нему дослужит</text>
+  <polygon points="48,160 376,160 400,198 376,236 48,236" fill="#F2B01E"/>
+  <text x="216" y="207" font-size="26" font-weight="700" fill="#16181B" text-anchor="middle">Первые два дня</text>
+  <rect x="48" y="268" width="336" height="322" rx="10" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <rect x="48" y="280" width="6" height="298" fill="#F2B01E"/>
+  <text x="76" y="324" font-size="22" fill="#16181B">Диаметр колонны</text>
+  <text x="76" y="386" font-size="22" fill="#16181B">Материал трубы, фильтр</text>
+  <text x="76" y="448" font-size="22" fill="#16181B">Освоение и прокачка</text>
+  <line x1="76" y1="492" x2="360" y2="492" stroke="#DCDAD3" stroke-width="2"/>
+  <text x="76" y="548" font-size="22" font-weight="700" fill="#A93F26">Потом не переделать</text>
+  <polygon points="392,160 792,160 816,198 792,236 392,236 416,198" fill="#2C7350"/>
+  <text x="608" y="207" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">Годы эксплуатации</text>
+  <rect x="400" y="268" width="400" height="322" rx="10" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <rect x="400" y="280" width="6" height="298" fill="#2C7350"/>
+  <text x="428" y="324" font-size="22" fill="#16181B">Ровный режим без рывков</text>
+  <text x="428" y="386" font-size="22" fill="#16181B">Насос под фактический дебит</text>
+  <text x="428" y="448" font-size="22" fill="#16181B">Защита от замерзания</text>
+  <line x1="428" y1="492" x2="776" y2="492" stroke="#DCDAD3" stroke-width="2"/>
+  <text x="428" y="548" font-size="22" font-weight="700" fill="#2C7350">Чистка не реже раза в год</text>
+  <polygon points="808,160 1152,160 1152,236 808,236 832,198" fill="#A93F26"/>
+  <text x="992" y="207" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">Ресурс на исходе</text>
+  <rect x="816" y="268" width="336" height="322" rx="10" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <rect x="816" y="280" width="6" height="298" fill="#A93F26"/>
+  <text x="844" y="324" font-size="22" fill="#16181B">Стойкое падение дебита</text>
+  <text x="844" y="386" font-size="22" fill="#16181B">Песок или муть в воде</text>
+  <text x="844" y="448" font-size="22" fill="#16181B">Насос ломается всё чаще</text>
+  <line x1="844" y1="492" x2="1128" y2="492" stroke="#DCDAD3" stroke-width="2"/>
+  <text x="844" y="548" font-size="22" font-weight="700" fill="#A93F26">Пора ли бурить новую?</text>
+  <text x="48" y="660" font-size="24" fill="#16181B">Одна скважина служит полвека, другая требует ремонта через три года —</text>
+  <text x="48" y="694" font-size="24" fill="#16181B">разница чаще в сумме мелких решений, а не в одном роковом</text>
+  <text x="48" y="740" font-size="22" fill="#5A646E">Шкала условная, не в масштабе</text>
+</svg>

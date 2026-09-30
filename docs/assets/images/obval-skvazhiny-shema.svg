@@ -1,0 +1,75 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Обвал скважины: признаки, обязательное обследование, ремонт при обвале в колонне или новая скважина при обвале ниже колонны и ликвидация старой с тампонажем" font-family="'Golos Text', 'Helvetica Neue', Arial, sans-serif">
+  <rect width="1200" height="800" fill="#F1F0EC"/>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#5A646E"/>
+    </marker>
+  </defs>
+
+  <text x="48" y="84" font-size="36" font-weight="700" fill="#16181B">Обвалилась скважина: как решать</text>
+  <text x="48" y="122" font-size="22" fill="#5A646E">Решение — только после обследования ствола. Разрез условный, не в масштабе</text>
+
+  <!-- мини-разрез -->
+  <rect x="48" y="180" width="292" height="30" fill="#7A5A3A"/>
+  <rect x="48" y="210" width="292" height="210" fill="#B98C62"/>
+  <rect x="48" y="420" width="292" height="332" fill="#E3CF9E"/>
+  <g fill="#C9B89A">
+    <circle cx="80" cy="460" r="5"/><circle cx="120" cy="540" r="4"/><circle cx="70" cy="620" r="5"/>
+    <circle cx="110" cy="700" r="4"/><circle cx="300" cy="470" r="5"/><circle cx="270" cy="560" r="4"/>
+    <circle cx="310" cy="650" r="5"/><circle cx="280" cy="720" r="4"/>
+  </g>
+  <!-- открытый ствол ниже колонны -->
+  <path d="M170 440 L164 480 L172 520 L160 560 L166 600 L158 640 L168 680 L162 730 L218 730 L226 690 L216 650 L228 610 L220 570 L230 530 L222 490 L228 440 Z" fill="#CFE3EE"/>
+  <path d="M160 600 L166 580 L176 596 L190 572 L204 590 L216 574 L226 598 L220 640 L228 690 L218 730 L162 730 L168 680 L158 640 Z" fill="#B98C62"/>
+  <g fill="#7A5A3A"><circle cx="180" cy="620" r="4"/><circle cx="204" cy="650" r="4"/><circle cx="186" cy="690" r="4"/><circle cx="210" cy="710" r="3"/><circle cx="196" cy="604" r="3"/></g>
+  <!-- обсадная колонна с нарушенным стыком -->
+  <rect x="170" y="172" width="58" height="268" fill="#F1F0EC"/>
+  <rect x="170" y="250" width="58" height="190" fill="#CFE3EE"/>
+  <line x1="170" y1="250" x2="228" y2="250" stroke="#3B7EA1" stroke-width="3"/>
+  <rect x="164" y="172" width="6" height="114" fill="#8C949C"/>
+  <rect x="164" y="308" width="6" height="132" fill="#8C949C"/>
+  <polygon points="160,284 192,297 160,310" fill="#7A5A3A"/>
+  <rect x="228" y="172" width="6" height="268" fill="#8C949C"/>
+  <rect x="152" y="166" width="94" height="10" fill="#8C949C"/>
+  <!-- маркеры -->
+  <line x1="262" y1="297" x2="194" y2="297" stroke="#5A646E" stroke-width="2"/>
+  <circle cx="284" cy="297" r="20" fill="#2C7350"/>
+  <text x="284" y="305" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">А</text>
+  <line x1="262" y1="640" x2="226" y2="640" stroke="#5A646E" stroke-width="2"/>
+  <circle cx="284" cy="640" r="20" fill="#A93F26"/>
+  <text x="284" y="648" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">Б</text>
+
+  <!-- блок-схема -->
+  <rect x="380" y="150" width="772" height="150" rx="10" fill="#FFFFFF" stroke="#C7C4BA" stroke-width="2"/>
+  <text x="404" y="186" font-size="24" font-weight="700" fill="#16181B">Признаки, которые обычно предшествуют обвалу</text>
+  <text x="404" y="220" font-size="22" fill="#16181B">• Песок и муть в воде не проходят, а усиливаются</text>
+  <text x="404" y="250" font-size="22" fill="#16181B">• Дебит падает без видимой причины</text>
+  <text x="404" y="280" font-size="22" fill="#16181B">• Насос упирается выше прежней отметки</text>
+
+  <line x1="766" y1="300" x2="766" y2="326" stroke="#5A646E" stroke-width="3" marker-end="url(#ar)"/>
+  <rect x="380" y="330" width="772" height="64" rx="10" fill="#FAEBC8" stroke="#F2B01E" stroke-width="2"/>
+  <text x="404" y="371" font-size="24" font-weight="700" fill="#7E5900">Обязательно сначала: видеокамера или зонд</text>
+
+  <path d="M568 394 V432" fill="none" stroke="#5A646E" stroke-width="3" marker-end="url(#ar)"/>
+  <path d="M964 394 V432" fill="none" stroke="#5A646E" stroke-width="3" marker-end="url(#ar)"/>
+
+  <rect x="380" y="436" width="376" height="124" rx="10" fill="#DCEBE2" stroke="#2C7350" stroke-width="2"/>
+  <circle cx="418" cy="474" r="18" fill="#2C7350"/>
+  <text x="418" y="482" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">А</text>
+  <text x="448" y="482" font-size="24" font-weight="700" fill="#2C7350">Обвал в колонне</text>
+  <text x="404" y="518" font-size="22" fill="#16181B">Замена трубы или</text>
+  <text x="404" y="546" font-size="22" fill="#16181B">перекрытие меньшей трубой</text>
+
+  <rect x="776" y="436" width="376" height="124" rx="10" fill="#F3DDD6" stroke="#A93F26" stroke-width="2"/>
+  <circle cx="814" cy="474" r="18" fill="#A93F26"/>
+  <text x="814" y="482" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">Б</text>
+  <text x="844" y="482" font-size="24" font-weight="700" fill="#A93F26">Ниже колонны</text>
+  <text x="800" y="518" font-size="22" fill="#16181B">Обычно проще пробурить</text>
+  <text x="800" y="546" font-size="22" fill="#16181B">новый ствол рядом</text>
+
+  <line x1="964" y1="560" x2="964" y2="592" stroke="#5A646E" stroke-width="3" marker-end="url(#ar)"/>
+  <rect x="380" y="596" width="772" height="120" rx="10" fill="#FFFFFF" stroke="#A93F26" stroke-width="3"/>
+  <text x="404" y="638" font-size="24" font-weight="700" fill="#16181B">Старую скважину — ликвидировать с тампонажем</text>
+  <text x="404" y="672" font-size="22" fill="#5A646E">Обязательно по СП 31.13330.2021 и СанПиН 2.1.3684-21;</text>
+  <text x="404" y="700" font-size="22" fill="#5A646E">засыпка обычным грунтом тампонаж не заменяет</text>
+</svg>
