@@ -66,7 +66,7 @@ function page({ title, description, depth, content }) {
 <main class="wrap">
 ${content}
 </main>
-<footer class="site-footer wrap">
+${depth ? `<script src="${up}assets/lightbox.js" defer></script>\n` : ''}<footer class="site-footer wrap">
 <p>Отдельный хаб для просмотра всех статей целиком. Это не боевой сайт и не публикация на нём.</p>
 </footer>
 </body>
@@ -174,6 +174,7 @@ async function main() {
   // --- статика ---
   for (const name of usedImages) fs.copyFileSync(path.join(IMAGES, name), path.join(OUT, 'assets', 'images', name));
   fs.copyFileSync(path.join(HERE, 'style.css'), path.join(OUT, 'assets', 'style.css'));
+  fs.copyFileSync(path.join(HERE, 'lightbox.js'), path.join(OUT, 'assets', 'lightbox.js'));
   fs.writeFileSync(path.join(OUT, '.nojekyll'), '');
   fs.writeFileSync(path.join(OUT, '404.html'), page({
     title: 'Страница не найдена — Силатехники (предпросмотр)',
